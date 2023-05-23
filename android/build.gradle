@@ -122,6 +122,6 @@ dependencies {
   // noinspection GradleDynamicVersion
   api 'com.facebook.react:react-native:+'
   implementation "org.jetbrains.kotlin:kotlin-stdlib:${getExtOrDefault('kotlinVersion')}"
-  implementation "androidx.core:core-ktx:${getExtOrDefault('coreVersion')}"
+  implementation "androidx.core:core-ktx:1.10.1"
   implementation "androidx.fragment:fragment:${getExtOrDefault('fragmentVersion')}"
 }
